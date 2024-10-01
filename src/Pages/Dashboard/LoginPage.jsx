@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
-import Data from './Data-Security.png';
-import Google from './google.png';
+import Data from '../../assets/Data-Security.png';
+import Google from '../../assets/google.png';
 
 const LoginPage = ({ onLoginSuccess }) => {
   const [email, setEmail] = useState('');
@@ -92,8 +92,8 @@ const LoginPage = ({ onLoginSuccess }) => {
         </p>
       </div>
       <div className="login-info">
-        <h2>Migrate Data like a breeze</h2>
-        <p>High performance data pipelines built in a minute</p>
+        <h2>Migrate Data <br></br>like a breeze</h2>
+        <p>High performance data pipelines built <br></br>in a minute</p>
         <img src={Data} alt="Data Migration" />
       </div>
     </div>
